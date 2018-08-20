@@ -1,0 +1,15 @@
+body {
+  background-color: #CED2CC;
+}
+
+#title {
+  margin: 30px;
+  text-align: center;
+}
+
+#left {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #4cb5f5;
+  border-radius: 10px;
+}
