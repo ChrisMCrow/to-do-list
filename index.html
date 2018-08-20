@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-3.3.1.js" charset="utf-8"></script>
+    <script src="js/scripts.js" charset="utf-8"></script>
+    <title>To Do List</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h1 class="jumbotron">New Entry</h1>
+          <form id="new-entry">
+            <div class="form-group">
+              <label for="new-item">Add an Item:</label>
+              <input id="new-item" type="text" class="form-control" />
+            </div>
+            <button type="submit" class="btn btn-primary">Add</button>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <h1 class="jumbotron">To-Do List</h1>
+          <div id="to-do-list">
+            <h3>To-Do</h3>
+          </div>
+          <div id="completed">
+            <h3>Completed</h3>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
