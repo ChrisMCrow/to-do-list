@@ -4,18 +4,18 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link href="https://fonts.googleapis.com/css?family=Archivo:500|Open+Sans:300,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/styles.css">
-    <script src="js/anime.js" charset="utf-8"></script>
     <script src="js/jquery-3.3.1.js" charset="utf-8"></script>
     <script src="js/scripts.js" charset="utf-8"></script>
     <title>To Do List</title>
   </head>
   <body>
     <div class="container">
-      <h1 id="title">TO-DO LIST</h1>
+      <h1 id="title" class="animated fadeInDown">TO-DO LIST</h1>
       <div class="row">
         <div class="col-md-6">
-          <div id="left">
+          <div id="left" class="animated rollIn slow">
             <h2>New Entry</h2>
             <form id="new-entry">
               <div class="form-group">
@@ -27,10 +27,10 @@
           </div>
         </div>
         <div class="col-md-6">
-          <div id="to-do-list">
+          <div id="to-do-list" class="animated rollIn ">
             <h2>To-Do List</h2>
           </div>
-          <div id="completed">
+          <div id="completed" class="animated rollIn slower">
             <h2>Completed</h2>
           </div>
         </div>

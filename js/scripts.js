@@ -15,26 +15,13 @@ ItemObject.prototype.move = function() {
 
 //front-end
 $(document).ready(function() {
-  //anime
-  // anime({
-  //   targets: 'div',
-  //   translateX: [
-  //     { value: 100, duration: 1200 },
-  //     { value: 0, duration: 800 }
-  //   ],
-  //   rotate: '1turn',
-  //   backgroundColor: '#FFF',
-  //   duration: 2000,
-  //   loop: true
-  // });
-
   $("form#new-entry").submit(function(event) {
     event.preventDefault();
 
     var input = $("input#new-item").val();
     var newItem = new ItemObject(input);
 
-    $("div#to-do-list").append("<p><input type='checkbox' name='checkbox'>  " + newItem.item + "</p>")
+    $("div#to-do-list").append("<p class='animated rotateInDownLeft'><input type='checkbox' name='checkbox'>  " + newItem.item + "</p>")
 
     newItem.move();
 
