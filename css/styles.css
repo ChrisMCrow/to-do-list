@@ -1,15 +1,45 @@
 body {
-  background-color: #CED2CC;
+  background-color: #23282d;
+  background-repeat: no-repeat;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: #23282D;
+}
+
+h1, h2 {
+  font-family: 'Archivo', sans-serif;
+  text-align: center;
+}
+
+h4 {
+  font-family: 'Archivo', sans-serif;
+  text-decoration: underline;
 }
 
 #title {
   margin: 30px;
+  font-size: 64px;
+  color: #ced2cc;
   text-align: center;
 }
 
 #left {
-  margin-top: 20px;
+  margin-top: 30px;
   padding: 20px;
   background-color: #4cb5f5;
+  border-radius: 10px;
+}
+
+#to-do-list {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #b3c100;
+  border-radius: 10px;
+}
+
+#completed {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #d32d41;
   border-radius: 10px;
 }
